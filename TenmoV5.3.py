@@ -6,7 +6,7 @@ guessed = False
 
 #RETIRAR AS PALVRAS DA TABELA
 
-with open('Tenmo/palavras.txt', 'r', encoding='utf=8') as list_words:
+with open('palavras.txt', 'r', encoding='utf=8') as list_words:
         wordiesInRaw = list_words.readlines()
         global listOfWords
         listOfWords = []
